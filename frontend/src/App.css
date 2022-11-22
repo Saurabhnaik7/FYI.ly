@@ -1,0 +1,373 @@
+* {
+  font-family: Roboto, sans-serif;
+}
+
+/*
+    Reusable styles
+ */
+
+.top-spaced {
+  margin-top: 1em;
+}
+
+.bottom-spaced {
+  margin-bottom: 1em;
+}
+
+.centered {
+  margin: auto;
+}
+
+/*
+    Navigation styles
+ */
+
+.Navigation {
+  width: 100%;
+  background-color: #4b7bb2;
+  font-size: 1.75em;
+}
+
+.Navigation-Desktop {
+  width: 100vw;
+  background-color: #4b7bb2;
+  font-size: 1.25em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-bottom: 1em;
+}
+
+.Navigation-Mobile {
+  background-color: #4b7bb2;
+  width: 100vw;
+  margin-bottom: 1em;
+}
+
+.Navigation-Content {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  min-width: 350px;
+  max-width: 800px;
+  font-size: 1.5em;
+}
+
+.Navigation-Link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: arvo, serif;
+}
+
+.Navigation-Button-Area {
+  align-self: center;
+}
+
+.Navigation-Link:visited {
+  color: #fff;
+}
+
+.Navigation-Link:hover {
+  color: #eee;
+}
+
+.Navigation-Button {
+  background-color: transparent;
+  text-decoration: none;
+  color: #fff;
+  border: none;
+  padding: 0.25em 0.5em 0.35em;
+  border-radius: 0.25em;
+  margin-left: 0.5em;
+  align-content: center;
+}
+
+.Navigation-Button:hover {
+  color: #fff;
+  background-color: #799bc2;
+  transition-duration: 200ms;
+}
+
+.Navigation-Button > span {
+  font-family: arvo, serif;
+  font-size: 0.6em;
+  font-weight: 600;
+}
+
+.Navigation-Button-Icon {
+  background-color: transparent;
+  text-decoration: none;
+  color: inherit;
+  border: none;
+  align-self: center;
+  justify-content: center;
+  margin-left: 0.35em;
+}
+
+.navbar {
+  background-color: #4b7bb2;
+  color: #fff;
+  width: 100%;
+  margin: auto;
+  padding: 1em 0 1em;
+  font-size: 1.5em;
+}
+
+.navbar img {
+  margin-right: 1em;
+}
+
+.navbar-toggler {
+  margin-right: 1em;
+  color: #fff;
+}
+
+.nav-link {
+  font-family: arvo, serif;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+.navbar-collapse {
+  text-align: right;
+  padding: 1em;
+  margin-left: -1em;
+  margin-top: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+  color: #fff;
+  background-color: #4b7bb2;
+  z-index: 9999;
+}
+
+.Brand-Items {
+  font-size: 1.25em;
+}
+
+.Expanding-Nav-Link-Icon {
+  margin-left: 1em;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+/*
+    Page layout styles
+ */
+
+.Content {
+  background-color: #f3f3f3;
+  color: #777;
+}
+
+.Content-Centered {
+  margin: auto;
+  width: 80vw;
+  min-width: 300px;
+  max-width: 500px;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.Content-Header {
+  padding: 0.5em;
+  text-align: center;
+  color: #777;
+}
+
+.Content-Card {
+  width: 100%;
+  padding-bottom: 1em;
+}
+
+/*
+    Button and link styles
+ */
+
+.image-copy-button {
+  display: inline-block;
+  margin-left: 1em;
+  height: min-content;
+  width: 150px;
+  padding: 1em 0;
+  align-self: center;
+  background-color: #7799c0;
+  border: 1px solid #ccc;
+  color: #fff;
+  transition-duration: 150ms;
+}
+
+.light-button {
+  background-color: #7799c0;
+  border: 1px solid #ccc;
+  color: #fff;
+  padding: 0.75em 1.5em;
+  transition-duration: 150ms;
+}
+
+.light-button:hover {
+  background-color: #3f6a9b;
+  border: 1px solid #ccc;
+  color: #fff;
+  transition-duration: 150ms;
+}
+
+.go-button {
+  font-weight: bold;
+  background-color: #7799c0;
+  border: none;
+  color: #fff;
+  margin-bottom: 1em;
+  width: 100%;
+  font-size: 1.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.go-button:hover {
+  background-color: #3f6a9b;
+  transition-duration: 150ms;
+}
+
+.go-button:hover > span {
+  padding-right: 1.5em;
+  transition-duration: 150ms;
+}
+
+.go-button > span {
+  padding-right: 1em;
+  transition-duration: 150ms;
+}
+
+.button-icon {
+  font-size: 1.25em;
+}
+
+.shorten-button {
+  margin: auto;
+  padding: 0;
+  color: #fff;
+  background-color: #888;
+}
+
+.Link {
+  color: #777;
+  text-align: left;
+}
+
+.Link:hover {
+  color: #ccc;
+}
+
+/*
+    URL entry card styles
+ */
+
+.error-text {
+  padding: 0.5em 1em;
+  margin-top: 2em;
+  color: #d36666;
+  font-weight: normal;
+  font-size: 1em;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 0.25em;
+}
+
+.input-label {
+  font-size: 0.75em;
+  align-self: center;
+  padding-right: 0.5em;
+}
+
+.input-group-text {
+  background-color: #aaa;
+  color: #fff;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.custom-extension-prefix {
+  background-color: transparent;
+  color: #555555;
+  padding: 0.75em 1.5em;
+}
+
+/*
+    Short URL area styles
+ */
+
+.Short-URL-Area {
+
+}
+
+.Short-URL-Main-Area {
+  flex: 1;
+  align-content: end;
+}
+
+.Short-URL-Main-Area h3 {
+  margin-bottom: 0.5em;
+}
+
+.Short-URL-QR-Area {
+  display: flex;
+  margin: 2em 0;
+  justify-content: center;
+}
+
+/*
+    Footer styles
+ */
+
+.Footer {
+  width: 100%;
+}
+
+.Footer-Content {
+  min-width: 300px;
+  max-width: 500px;
+  margin: auto;
+  font-size: 1.5em;
+}
+
+.Footer p {
+  font-size: 0.5em;
+}
+
+
+.form-control {
+  padding: 0.75em 1.5em;
+}
+
+.form-label {
+  color: #555;
+  font-size: 1.1em;
+}
+
+/*
+    Waiting area styles
+ */
+
+.waiting-area {
+  justify-content: center;
+  margin-bottom: 4em;
+}
+
+/*
+    Documentation modal styles
+ */
+
+.Doc-Modal-Body > p {
+  margin-bottom: 0.25em;
+}
+
+.Doc-Modal-Body > h5 {
+  margin-bottom: 0.75em;
+  margin-top: 1.5em;
+}
