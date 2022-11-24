@@ -4,7 +4,8 @@ const WaitingArea = (props) => {
   if (props.status === 'waiting') {
     return <BallTriangle
       wrapperClass="waiting-area"
-      color="#3f6a9b"
+      //color="#3f6a9b"
+      color="#20835e"
       height={200}
       width={200}
     />;

@@ -24,13 +24,13 @@
 
 .Navigation {
   width: 100%;
-  background-color: #4b7bb2;
+  background-color: #20835e;
   font-size: 1.75em;
 }
 
 .Navigation-Desktop {
   width: 100vw;
-  background-color: #4b7bb2;
+  background-color: #20835e;
   font-size: 1.25em;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
@@ -38,7 +38,7 @@
 }
 
 .Navigation-Mobile {
-  background-color: #4b7bb2;
+  background-color: #20835e;
   width: 100vw;
   margin-bottom: 1em;
 }
@@ -59,98 +59,9 @@
   font-weight: bold;
   font-family: arvo, serif;
 }
-
-.Navigation-Button-Area {
-  align-self: center;
-}
-
-.Navigation-Link:visited {
+.Navigation-Link:hover{
   color: #fff;
 }
-
-.Navigation-Link:hover {
-  color: #eee;
-}
-
-.Navigation-Button {
-  background-color: transparent;
-  text-decoration: none;
-  color: #fff;
-  border: none;
-  padding: 0.25em 0.5em 0.35em;
-  border-radius: 0.25em;
-  margin-left: 0.5em;
-  align-content: center;
-}
-
-.Navigation-Button:hover {
-  color: #fff;
-  background-color: #799bc2;
-  transition-duration: 200ms;
-}
-
-.Navigation-Button > span {
-  font-family: arvo, serif;
-  font-size: 0.6em;
-  font-weight: 600;
-}
-
-.Navigation-Button-Icon {
-  background-color: transparent;
-  text-decoration: none;
-  color: inherit;
-  border: none;
-  align-self: center;
-  justify-content: center;
-  margin-left: 0.35em;
-}
-
-.navbar {
-  background-color: #4b7bb2;
-  color: #fff;
-  width: 100%;
-  margin: auto;
-  padding: 1em 0 1em;
-  font-size: 1.5em;
-}
-
-.navbar img {
-  margin-right: 1em;
-}
-
-.navbar-toggler {
-  margin-right: 1em;
-  color: #fff;
-}
-
-.nav-link {
-  font-family: arvo, serif;
-  font-size: 0.8em;
-  font-weight: 600;
-}
-
-.navbar-collapse {
-  text-align: right;
-  padding: 1em;
-  margin-left: -1em;
-  margin-top: 0.5em;
-  border-bottom-right-radius: 0.5em;
-  border-bottom-left-radius: 0.5em;
-  color: #fff;
-  background-color: #4b7bb2;
-  z-index: 9999;
-}
-
-.Brand-Items {
-  font-size: 1.25em;
-}
-
-.Expanding-Nav-Link-Icon {
-  margin-left: 1em;
-  color: #fff;
-  font-size: 1.5em;
-}
-
 /*
     Page layout styles
  */
@@ -194,14 +105,14 @@
   width: 150px;
   padding: 1em 0;
   align-self: center;
-  background-color: #7799c0;
+  background-color: #20835e;
   border: 1px solid #ccc;
   color: #fff;
   transition-duration: 150ms;
 }
 
 .light-button {
-  background-color: #7799c0;
+  background-color: #20835e;
   border: 1px solid #ccc;
   color: #fff;
   padding: 0.75em 1.5em;
@@ -209,7 +120,7 @@
 }
 
 .light-button:hover {
-  background-color: #3f6a9b;
+  background-color: #20835e;
   border: 1px solid #ccc;
   color: #fff;
   transition-duration: 150ms;
@@ -217,7 +128,7 @@
 
 .go-button {
   font-weight: bold;
-  background-color: #7799c0;
+  background-color: #20835e;
   border: none;
   color: #fff;
   margin-bottom: 1em;
@@ -228,7 +139,7 @@
 }
 
 .go-button:hover {
-  background-color: #3f6a9b;
+  background-color: #20835e;
   transition-duration: 150ms;
 }
 
@@ -321,26 +232,6 @@
   justify-content: center;
 }
 
-/*
-    Footer styles
- */
-
-.Footer {
-  width: 100%;
-}
-
-.Footer-Content {
-  min-width: 300px;
-  max-width: 500px;
-  margin: auto;
-  font-size: 1.5em;
-}
-
-.Footer p {
-  font-size: 0.5em;
-}
-
-
 .form-control {
   padding: 0.75em 1.5em;
 }
@@ -357,17 +248,4 @@
 .waiting-area {
   justify-content: center;
   margin-bottom: 4em;
-}
-
-/*
-    Documentation modal styles
- */
-
-.Doc-Modal-Body > p {
-  margin-bottom: 0.25em;
-}
-
-.Doc-Modal-Body > h5 {
-  margin-bottom: 0.75em;
-  margin-top: 1.5em;
 }
