@@ -22,7 +22,7 @@ async function isProfane(text) {
 
 // Short URL Generator
 router.post('/create', async (req, res) => {
-  const baseURL = 'https://smlr.org';
+  const baseURL = 'https://fyi-ly.onrender.com';
   const destinationURL = req.body.destination;
   const reqExt = req.body.reqExt;
 

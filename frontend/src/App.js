@@ -13,7 +13,8 @@ import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import NavBar from './components/NavBar';
 
-const API_URL = 'https://api.smlr.org';
+const API_URL='https://fyi-ly.onrender.com'
+//const API_URL = 'https://api.smlr.org';
 
 /**
  * Application entry point
